@@ -19,4 +19,5 @@ SELECT
     WHEN LOWER("No-show") = 'yes' THEN TRUE
     ELSE FALSE
   END AS missed
-FROM `missed_appointments.appointments_data_raw`;
+FROM `missed_appointments.appointments_data_raw`
+WHERE Age > 0;

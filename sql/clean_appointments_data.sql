@@ -9,7 +9,7 @@ SELECT
   EXTRACT(DATE FROM AppointmentDay) AS appointment_date,
   Age,
   Neighbourhood,
-  Scholarship,
+  Scholarship AS gov_aid,
   Hipertension AS Hypertension,
   Diabetes,
   Alcoholism,

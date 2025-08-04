@@ -4,7 +4,7 @@ SELECT
   patient_id,
   gender,
   age,
-  scholarship,
+  gov_aid,
   hypertension,
   diabetes,
   alcoholism,

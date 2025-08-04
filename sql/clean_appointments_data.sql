@@ -15,9 +15,6 @@ SELECT
   Alcoholism,
   Handcap AS Handicap,
   SMS_received,
-  CASE
-    WHEN LOWER("No-show") = 'yes' THEN TRUE
-    ELSE FALSE
-  END AS missed
+  `No-show` AS missed
 FROM `missed_appointments.appointments_data_raw`
 WHERE Age > 0;

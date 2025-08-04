@@ -4,6 +4,25 @@ This project analyzes patient no-shows for medical appointments using a public d
 
 ---
 
+## 🎯 Objective
+
+Healthcare providers lose time and money due to missed appointments. This analysis seeks to answer:
+
+- Who are more likely to miss appointments?
+- Does age, gender, or chronic illness affect no-show rates?
+- Do SMS reminders reduce missed appointments?
+- Are there time-of-week patterns in no-shows?
+
+---
+
+## 📦 Dataset
+
+- Source: [Kaggle - No-show Appointments Dataset](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
+- Rows: ~110K appointment records
+- Key columns: `Gender`, `Age`, `Neighbourhood`, `Diabetes`, `SMS_received`, `No-show`
+
+---
+
 ## 🗂️ Project Structure
 
 - **Data Source**: [Kaggle - No-show Appointments](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
@@ -47,7 +66,6 @@ _Include screenshots here:_
 | `sql/` | BigQuery SQL scripts used to extract and clean data |
 | `powerbi/` | Power BI `.pbix` file |
 | `assets/` | Dashboard screenshots |
-| `notebooks/` | (Optional) Python or SQL exploration notebooks |
 | `data/` | Placeholder for data reference (no raw data included) |
 
 ---

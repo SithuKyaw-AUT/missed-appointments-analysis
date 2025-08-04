@@ -1,0 +1,14 @@
+# Data
+*.csv
+*.xlsx
+
+# Power BI
+*.pbix
+
+# Jupyter and Python
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# macOS
+.DS_Store

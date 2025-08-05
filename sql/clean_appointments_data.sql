@@ -32,7 +32,7 @@ SELECT
   CASE 
     WHEN SMS_received = 0 THEN "No"
     ELSE "Yes"
-  END AS SMS_recieved,
+  END AS SMS_received,
   CASE 
     WHEN `No-show` is true THEN "Yes"
     ELSE "No" 

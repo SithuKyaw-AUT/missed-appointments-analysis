@@ -9,15 +9,33 @@ SELECT
   EXTRACT(DATE FROM AppointmentDay) AS appointment_date,
   Age,
   Neighbourhood,
-  Scholarship AS gov_aid,
-  Hipertension AS Hypertension,
-  Diabetes,
-  Alcoholism,
+  CASE 
+    WHEN Scholarship = 0 THEN "No"
+    ELSE "Yes"
+  END AS gov_aid,
   CASE
-    WHEN Handcap = 0 THEN 0
-    ELSE 1 
+    WHEN Hipertension = 0 THEN "No"
+    ELSE "Yes"
+  END AS Hypertension,
+  CASE 
+    WHEN Diabetes = 0 THEN "No"
+    ELSE "Yes"
+  END AS Diabetes,
+  CASE
+    WHEN Alcoholism = 0 THEN "No"
+    ELSE "Yes"
+  END AS Alcoholism,
+  CASE
+    WHEN Handcap = 0 THEN "No"
+    ELSE "Yes" 
   END AS Handicap,
-  SMS_received,
-  `No-show` AS missed
+  CASE 
+    WHEN SMS_received = 0 THEN "No"
+    ELSE "Yes"
+  END AS SMS_recieved,
+  CASE 
+    WHEN `No-show` is true THEN "Yes"
+    ELSE "No" 
+  END AS missed
 FROM `missed_appointments.appointments_data_raw`
 WHERE Age > 0;

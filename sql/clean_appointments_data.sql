@@ -13,7 +13,10 @@ SELECT
   Hipertension AS Hypertension,
   Diabetes,
   Alcoholism,
-  Handcap AS Handicap,
+  CASE
+    WHEN Handcap = 0 THEN 0
+    ELSE 1 
+  END AS Handicap,
   SMS_received,
   `No-show` AS missed
 FROM `missed_appointments.appointments_data_raw`

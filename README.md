@@ -55,7 +55,7 @@ Healthcare providers lose time and money due to missed appointments. This analys
 ## 📷 Dashboard Preview
 
 _Include screenshots here:_
-![Dashboard Screenshot](assets/screenshots/overview.png)
+![Dashboard Screenshot](assets/dashboard.png)
 
 ---
 

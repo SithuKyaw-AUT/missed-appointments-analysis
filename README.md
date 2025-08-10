@@ -33,7 +33,7 @@ Healthcare providers lose time and money due to missed appointments. This analys
   - SQL for data extraction and transformation
   - Data cleaning and transformation in Power Query
   - Data modeling for BI
-  - DAX measures (e.g., % missed, demographics, risk=score etc)
+  - DAX measures (e.g., % missed, demographics, risk-score etc)
   - Dashboard storytelling
 
 ---

@@ -54,7 +54,6 @@ Healthcare providers lose time and money due to missed appointments. This analys
 
 ## 📷 Dashboard Preview
 
-_Include screenshots here:_
 ![Dashboard Screenshot](assets/dashboard.png)
 
 ---
@@ -70,11 +69,9 @@ _Include screenshots here:_
 
 ---
 
-## 🧠 Insights Found
+## 🧠 Insights & Recommendation
 
-- No-shows were highest among younger age groups.
-- SMS reminders correlated slightly with attendance.
-- Certain neighborhoods had consistently higher no-show rates.
+![Insights and recommendation Screenshot](assets/insights_and_recommendation.png)
 
 ---
 
